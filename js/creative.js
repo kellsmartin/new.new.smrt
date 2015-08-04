@@ -45,6 +45,11 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    // No widows
+$('.noWidows2').each(function(i,d){ 
+    var value="&nbsp;"
+    $(d).html($(d).text().replace(/\s(?=[^\s]*$)/g, value).replace(/\s(?=[^\s]*$)/g, value)); 
+}); 
   
 
 })(jQuery); // End of use strict

@@ -200,16 +200,16 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/computer-man1.png);
+    background-image: url(../img/computer-man2.jpg);
     background-position: 50%, 25%;
+    background-attachment: fixed;
+    z-index: 1;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    padding-top: 10px;   
-    margin-top: 50px; 
+    padding-top: 500px;
 }
-
 
 header .header-content {
     position: relative;
@@ -250,13 +250,18 @@ header .header-content .header-content-inner p {
 @media(min-width:768px) {
     header {
         height: 90%;
-        background-image: url(../img/computer-man1.png);
+        background-image: url(../img/computer-man2.jpg);
         background-position: center-top;
+        background-attachment: fixed;
+        z-index: 1;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
         -o-background-size: cover;
     }
+
+
+}
 
     header .header-content {
         position: absolute;
@@ -388,14 +393,16 @@ header .header-content .header-content-inner p {
 
 /*---Photo section-----*/
 .anywhere{
-        background-image: url(../img/startup-photos.jpg);
+        background-image: url(../img/bizman_website_phone.png);
         background-position: 5%;       
     }
 
 @media(min-width:768px){
     .anywhere {
-    background-image: url(../img/lappy2.jpg);
+    background-image: url(../img/bizman_website_phone.png);
     background-size: cover;
+    background-opacity: .25;
+    background-color: #000;
     font-size: 21px;
      background-position: 10%;
     }
@@ -581,6 +588,10 @@ body {
     padding: 7px;
     max-width: 175px;
 
+}
+
+.features-image {
+    max-width: 30%;
 }
 /*-----Price List------*/
 
