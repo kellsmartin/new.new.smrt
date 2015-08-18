@@ -200,8 +200,8 @@ header {
     height:75%;
     min-height: auto;
     text-align: center;
-    color: #fff;
-    background-image: url(../img/computer-man1.png);
+    color: #315c93;
+   /* background-image: url(../img/computer-man1.png);*/
     background-position: center-top;
     background-attachment: fixed;
     z-index: 1;
@@ -225,7 +225,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 10px;
     text-transform: uppercase;
     font-weight: 400;
-    text-shadow: 2px 2px 5px #777;
+   /* text-shadow: 2px 2px 5px #777;*/
 }
 
 header .header-content .header-content-inner hr {
@@ -238,7 +238,7 @@ header .header-content .header-content-inner p {
     font-size: 18px;
     font-weight: 500;
     color: rgba(255,255,255);
-    text-shadow: 2px 2px 5px #777;
+   /* text-shadow: 2px 2px 5px #777;*/
 }
 
 #header-logo {
@@ -373,18 +373,14 @@ header .header-content .header-content-inner p {
 
 /*---Photo section-----*/
 .anywhere{
-        background-image: url(../img/bizman_smrtapp.png);
-        background-position: 5%;       
+        background-color: #928c86 ;     
     }
 
 @media(min-width:768px){
     .anywhere {
-    background-image: url(../img/bizman_smrtapp.png);
-    background-size: cover;
-    background-opacity: .5;
-    background-color: #000;
+
     font-size: 21px;
-     background-position: 10%;
+  
     }
 
     .anywhere h2 {
