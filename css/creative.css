@@ -27,7 +27,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #fff;
+    border-color: #315c93;
     border-width: 3px;
 }
 
@@ -148,7 +148,7 @@ aside {
 
     .index .navbar-default .navbar-header .navbar-brand:hover,
     .index .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: #2b7dd6;
     }
     .pricing .navbar-default .navbar-header .navbar-brand:hover,
     .pricing .navbar-default .navbar-header .navbar-brand:focus {
@@ -206,9 +206,9 @@ aside {
 header {
     position: top;
     width: 100%;
-    height:75%;
+    height:60%;
     min-height: auto;
-   /* text-align: center;*/
+    /* text-align: center;*/
     color: #fff;
     background-image: url(../img/milky-way.jpg);
     background-position: center-top;
@@ -244,7 +244,7 @@ header .header-content .header-content-inner hr {
 }
 
 header .header-content .header-content-inner p {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     padding: 10px, 0;
     font-size: 18px;
     font-weight: 200;
@@ -269,9 +269,9 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 40%;
+        top: 50%;
         padding:50px;
-        margin-top: 30px;
+        margin-top: 80px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -579,7 +579,7 @@ body {
 }
 
 .features-image {
-    max-width: 30%;
+    max-width: 25%;
 }
 /*-----Price List------*/
 
